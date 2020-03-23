@@ -243,6 +243,12 @@ const routes = [
     name: 'nav.training',
     meta: { layout: 'unauthenticated', noAuth: true },
   },
+  {
+    path: '/about',
+    component: AboutPage,
+    name: 'nav.about',
+    meta: { layout: 'unauthenticated', noAuth: true },
+  },
 ];
 
 const router = new VueRouter({
