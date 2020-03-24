@@ -29,6 +29,7 @@ import PreliminaryAssessment from '@/pages/PreliminaryAssessment';
 import Terms from '@/pages/unauthenticated/Terms';
 import Privacy from '@/pages/unauthenticated/Privacy';
 import TrainingPage from '@/pages/Training';
+import AboutPage from '@/pages/About';
 
 Vue.use(VueRouter);
 Vue.use(VueCookies);
